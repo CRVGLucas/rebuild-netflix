@@ -15,6 +15,25 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.botao {
+    background-color: rgba(0,0,0,50);
+    border: none;
+    color: white;
+    padding: 15px 30px ;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .3s ease-out;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--preto);
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -32,7 +51,8 @@ header .container {
     align-items: flex start;
 }
 
-.filme-principal .cescricao {
+.filme-principal .descricao {
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -53,5 +73,7 @@ header .container {
 }
 
 .titulo-do-filme {
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS',Arial,sans-serif;
 }
